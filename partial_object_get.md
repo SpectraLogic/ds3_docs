@@ -1,13 +1,13 @@
 Partial Object Recovery
 =======================
 
-# S3 Clients
+## S3 Clients
 
 Standard S3 clients can use the regular [Amazon S3 Partial Object
 GET](http://docs.aws.amazon.com/AmazonS3/latest/API/RESTObjectGET.html#ExampleGetRangeRequestHeaders)
 for objects that only consist of a single blob.
 
-# DS3 Clients
+## DS3 Clients
 
 DS3 clients can add an offset and length to the object list when
 starting a
@@ -249,7 +249,7 @@ of data retrieved during this last GET Object request.
     Server returns:      +------+------+
     GET Object Request:         +--+
 
-## Checksum Validation
+### Checksum Validation
 
 DS3 manages end-to-end CRC by assigning one checksum to each "blob" of
 an
