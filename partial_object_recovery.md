@@ -178,9 +178,7 @@ specific parameters:
 
 ##### Request
 
-    GET
-http://192.168.56.103:8080/bucket-name/dir5/file1.dat?job=5e9f9371-59cb-46ba-8ca9-cea650a5da61&offset=10485760
-HTTP/1.1
+    GET http://192.168.56.103:8080/bucket-name/dir5/file1.dat?job=5e9f9371-59cb-46ba-8ca9-cea650a5da61&offset=10485760 HTTP/1.1
     Date: Tue, 20 Jan 2015 17:54:35 GMT
     Authorization: AWS c3BlY3RyYQ==:deJX+Fs9vG9LFteyGymNkgd/rfs=
     Range: bytes=10485760-12582911
