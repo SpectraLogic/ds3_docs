@@ -3,30 +3,31 @@ DS3 SDK Feature Matrix
 
 ## AWS Calls
 
-|                                  | Java | C# | C | Python | Ruby |
-|----------------------------------|:----:|:--:|:-:|:------:|:----:|
-|Get Service                       |  X   |  X | X |   X    |  X   |
-|Create Bucket                     |  X   |  X | X |   X    |  X   |
-|Get Bucket                        |  X   |  X | X |   X    |  X   |
-|Head Bucket                       |  X   |  X |   |        |      |
-|Delete Bucket                     |  X   |  X | X |   X    |  X   |
-|Put Object                        |  X   |  X | X |   X    |  X   |
-|Get Object                        |  X   |  X | X |   X    |  X   |
-|Get Partial Object                |  X   |  X |   |        |      |
-|Head Object                       |      |  X |   |        |      |
-|Delete Object                     |  X   |  X | X |   X    |  X   |
-|Multi Object Delete               |      |  X |   |        |      |
-|V2 Auth                           |  X   |  X | X |   X    |  X   |
-|V4 Auth<sup>1</sup>               |      |    |   |        |      |
-|Initial Multipart<sup>2</sup>     |      |    |   |        |      |
-|Put Part<sup>2</sup>              |      |    |   |        |      |
-|Complete Multipart<sup>2</sup>    |      |    |   |        |      |
-|Abort Multipart<sup>2</sup>       |      |    |   |        |      |
-|List Multipart Parts<sup>2</sup>  |      |    |   |        |      |
-|List Multipart Uploads<sup>2</sup>|      |    |   |        |      |
+|                                  |    Java     | C# | C | Python | Ruby |
+|----------------------------------|:-----------:|:--:|:-:|:------:|:----:|
+|Get Service                       |      X      |  X | X |   X    |  X   |
+|Create Bucket                     |      X      |  X | X |   X    |  X   |
+|Get Bucket                        |      X      |  X | X |   X    |  X   |
+|Head Bucket                       |      X      |  X |   |        |      |
+|Delete Bucket                     |      X      |  X | X |   X    |  X   |
+|Put Object                        |      X      |  X | X |   X    |  X   |
+|Get Object                        |      X      |  X | X |   X    |  X   |
+|Get Partial Object                |X<sup>1</sup>|  X |   |        |      |
+|Head Object                       |             |  X |   |        |      |
+|Delete Object                     |      X      |  X | X |   X    |  X   |
+|Multi Object Delete               |             |  X |   |        |      |
+|V2 Auth                           |      X      |  X | X |   X    |  X   |
+|V4 Auth<sup>2</sup>               |             |    |   |        |      |
+|Initial Multipart<sup>3</sup>     |             |    |   |        |      |
+|Put Part<sup>3</sup>              |             |    |   |        |      |
+|Complete Multipart<sup>3</sup>    |             |    |   |        |      |
+|Abort Multipart<sup>3</sup>       |             |    |   |        |      |
+|List Multipart Parts<sup>3</sup>  |             |    |   |        |      |
+|List Multipart Uploads<sup>3</sup>|             |    |   |        |      |
 
-* <sup>1</sup> - Still determining when this will be developed
-* <sup>2</sup> - No planned support in the SDKs
+* <sup>1</sup> - Currently limited to a single range 
+* <sup>2</sup> - Still determining when this will be developed
+* <sup>3</sup> - No planned support in the SDKs
 
 Meta-Data Features
 ==================
