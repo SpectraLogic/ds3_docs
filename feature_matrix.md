@@ -25,9 +25,30 @@ DS3 SDK Feature Matrix
 Meta-Data Features
 ==================
 
-|                      | Java | C# |      C       | Python | Ruby |
-|----------------------|:----:|:--:|:------------:|:------:|:----:|
-|Put Meta Data w/Object|  X   | X  | X<sup>1</sup>|        |      |
+|                               | Java | C# |      C       | Python | Ruby |
+|-------------------------------|:----:|:--:|:------------:|:------:|:----:|
+|Put Meta Data w/Object         |  X   | X  | X<sup>1</sup>|        |      |
+|Get Meta Data w/Object         |      | X  |              |        |      |
+|Head Meta Data                 |      | X  |              |        |      |
+|Put Meta Data w/Helper Function|      |    |              |        |      |
+|Get Meta Data w/Helper Function|      |    |              |        |      |
 
 <sup>1</sup> - This can be accomplished with the `ds3_request_set_custom_header`
+
+DS3 API Calls
+=============
+
+|                              | Java | C# | C | Python | Ruby |
+|------------------------------|:----:|:--:|:-:|:------:|:----:|
+|Bulk Put                      |   X  | X  | X |   X    |   X  |
+|Bulk Get                      |   X  | X  | X |   X    |   X  |
+|Get Job                       |   X  | X  | X |   X    |   X  |
+|Get Jobs                      |   X  | X  |   |        |      |
+|Delete Job                    |   X  | X  | X |   X    |   X  |
+|Modify Job                    |   X  | X  | X |   X    |      | 
+|Get Available Job Chunks      |   X  | X  | X |   X    |   X  |
+|Allocate Job Chunk<sup>1</sup>|   X  | X  | X |   X    |   X  |
+|Get Physical Placement        |      |    | X |        |   X  |
+
+<sup>1</sup> - This API call is deprecated
 
