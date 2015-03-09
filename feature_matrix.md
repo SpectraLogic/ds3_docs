@@ -64,3 +64,18 @@ Get Bucket Params
 |Delimiter|  X   | X  | X |   X    |   X  |
 |Prefix   |  X   | X  | X |   X    |   X  |
 |Max Keys |  X   | X  | X |   X    |   X  |
+
+Helper Functions
+================
+
+**Note:** Currently only the Java and C# SDK have helper functions
+
+|                          | Java | C# |
+|--------------------------|:----:|:--:|
+|Bulk Put                  |   X  |  X |
+|Bulk Get                  |   X  |  X |
+|Partial Object Get        |      |  X |
+|List all Objects in Bucket|   X  |  X |
+|Recover Read Job          |      |    |
+|Recover Write Job         |      |  X |
+|Ensure Bucket Exists      |   X  |  X |
