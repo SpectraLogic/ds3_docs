@@ -3,7 +3,7 @@ DS3 SDK Feature Matrix
 
 ## AWS Calls
 
-|      SDKs            | Java | C# | C | Python | Ruby |
+|                      | Java | C# | C | Python | Ruby |
 |----------------------|:----:|:--:|:-:|:------:|:----:|
 |Get Service           |  X   |  X | X |   X    |  X   |
 |Create Bucket         |  X   |  X | X |   X    |  X   |
@@ -21,3 +21,13 @@ DS3 SDK Feature Matrix
 |Abort Multipart       |      |    |   |        |      |
 |List Multipart Parts  |      |    |   |        |      |
 |List Multipart Uploads|      |    |   |        |      |
+
+Meta-Data Features
+==================
+
+|                      | Java | C# |      C       | Python | Ruby |
+|----------------------|:----:|:--:|:------------:|:------:|:----:|
+|Put Meta Data w/Object|  X   | X  | X<sup>1</sup>|        |      |
+
+<sup>1</sup> - This can be accomplished with the `ds3_request_set_custom_header`
+
