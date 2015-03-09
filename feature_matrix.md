@@ -15,15 +15,18 @@ DS3 SDK Feature Matrix
 |Get Partial Object                |  X   |  X |   |        |      |
 |Head Object                       |      |  X |   |        |      |
 |Delete Object                     |  X   |  X | X |   X    |  X   |
-|Multi Object Delete<sup>1</sup>   |      |  X |   |        |      |
-|Initial Multipart<sup>1</sup>     |      |    |   |        |      |
-|Put Part<sup>1</sup>              |      |    |   |        |      |
-|Complete Multipart<sup>1</sup>    |      |    |   |        |      |
-|Abort Multipart<sup>1</sup>       |      |    |   |        |      |
-|List Multipart Parts<sup>1</sup>  |      |    |   |        |      |
-|List Multipart Uploads<sup>1</sup>|      |    |   |        |      |
+|Multi Object Delete               |      |  X |   |        |      |
+|V2 Auth                           |  X   |  X | X |   X    |  X   |
+|V4 Auth<sup>1</sup>               |      |    |   |        |      |
+|Initial Multipart<sup>2</sup>     |      |    |   |        |      |
+|Put Part<sup>2</sup>              |      |    |   |        |      |
+|Complete Multipart<sup>2</sup>    |      |    |   |        |      |
+|Abort Multipart<sup>2</sup>       |      |    |   |        |      |
+|List Multipart Parts<sup>2</sup>  |      |    |   |        |      |
+|List Multipart Uploads<sup>2</sup>|      |    |   |        |      |
 
-<sup>1</sup> - No planned support in the SDKs
+* <sup>1</sup> - Still determining when this will be developed
+* <sup>2</sup> - No planned support in the SDKs
 
 Meta-Data Features
 ==================
@@ -52,7 +55,7 @@ DS3 API Calls
 |Allocate Job Chunk<sup>1</sup>|   X  | X  | X |   X    |   X  |
 |Get Physical Placement        |      |    | X |        |   X  |
 
-<sup>1</sup> - This API call is deprecated
+* <sup>1</sup> - This API call is deprecated
 
 Get Bucket Params
 =================
