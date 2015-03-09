@@ -28,15 +28,14 @@ DS3 SDK Feature Matrix
 Meta-Data Features
 ==================
 
-|                               | Java | C# |      C       | Python | Ruby |
-|-------------------------------|:----:|:--:|:------------:|:------:|:----:|
-|Put Meta Data w/Object         |  X   | X  | X<sup>1</sup>|        |      |
-|Get Meta Data w/Object         |      | X  |              |        |      |
-|Head Meta Data                 |      | X  |              |        |      |
-|Put Meta Data w/Helper Function|      |    |              |        |      |
-|Get Meta Data w/Helper Function|      |    |              |        |      |
+|                               | Java | C# | C  | Python | Ruby |
+|-------------------------------|:----:|:--:|:--:|:------:|:----:|
+|Put Meta Data w/Object         |  X   | X  |    |        |      |
+|Get Meta Data w/Object         |      | X  |    |        |      |
+|Head Meta Data                 |      | X  |    |        |      |
+|Put Meta Data w/Helper Function|      |    |    |        |      |
+|Get Meta Data w/Helper Function|      |    |    |        |      |
 
-<sup>1</sup> - This can be accomplished with the `ds3_request_set_custom_header`
 
 DS3 API Calls
 =============
