@@ -12,6 +12,7 @@ DS3 SDK Feature Matrix
 |Delete Bucket         |  X   |  X | X |   X    |  X   |
 |Put Object            |  X   |  X | X |   X    |  X   |
 |Get Object            |  X   |  X | X |   X    |  X   |
+|Get Partial Object    |  X   |  X |   |        |      |
 |Head Object           |      |  X |   |        |      |
 |Delete Object         |  X   |  X | X |   X    |  X   |
 |Multi Object Delete   |      |  X |   |        |      |
@@ -52,3 +53,12 @@ DS3 API Calls
 
 <sup>1</sup> - This API call is deprecated
 
+Get Bucket Params
+=================
+
+|         | Java | C# | C | Python | Ruby |
+|---------|:----:|:--:|:-:|:------:|:----:|
+|Marker   |  X   | X  | X |   X    |   X  |
+|Delimiter|  X   | X  | X |   X    |   X  |
+|Prefix   |  X   | X  | X |   X    |   X  |
+|Max Keys |  X   | X  | X |   X    |   X  |
