@@ -3,25 +3,27 @@ DS3 SDK Feature Matrix
 
 ## AWS Calls
 
-|                      | Java | C# | C | Python | Ruby |
-|----------------------|:----:|:--:|:-:|:------:|:----:|
-|Get Service           |  X   |  X | X |   X    |  X   |
-|Create Bucket         |  X   |  X | X |   X    |  X   |
-|Get Bucket            |  X   |  X | X |   X    |  X   |
-|Head Bucket           |  X   |  X |   |        |      |
-|Delete Bucket         |  X   |  X | X |   X    |  X   |
-|Put Object            |  X   |  X | X |   X    |  X   |
-|Get Object            |  X   |  X | X |   X    |  X   |
-|Get Partial Object    |  X   |  X |   |        |      |
-|Head Object           |      |  X |   |        |      |
-|Delete Object         |  X   |  X | X |   X    |  X   |
-|Multi Object Delete   |      |  X |   |        |      |
-|Initial Multipart     |      |    |   |        |      |
-|Put Part              |      |    |   |        |      |
-|Complete Multipart    |      |    |   |        |      |
-|Abort Multipart       |      |    |   |        |      |
-|List Multipart Parts  |      |    |   |        |      |
-|List Multipart Uploads|      |    |   |        |      |
+|                                  | Java | C# | C | Python | Ruby |
+|----------------------------------|:----:|:--:|:-:|:------:|:----:|
+|Get Service                       |  X   |  X | X |   X    |  X   |
+|Create Bucket                     |  X   |  X | X |   X    |  X   |
+|Get Bucket                        |  X   |  X | X |   X    |  X   |
+|Head Bucket                       |  X   |  X |   |        |      |
+|Delete Bucket                     |  X   |  X | X |   X    |  X   |
+|Put Object                        |  X   |  X | X |   X    |  X   |
+|Get Object                        |  X   |  X | X |   X    |  X   |
+|Get Partial Object                |  X   |  X |   |        |      |
+|Head Object                       |      |  X |   |        |      |
+|Delete Object                     |  X   |  X | X |   X    |  X   |
+|Multi Object Delete<sup>1</sup>   |      |  X |   |        |      |
+|Initial Multipart<sup>1</sup>     |      |    |   |        |      |
+|Put Part<sup>1</sup>              |      |    |   |        |      |
+|Complete Multipart<sup>1</sup>    |      |    |   |        |      |
+|Abort Multipart<sup>1</sup>       |      |    |   |        |      |
+|List Multipart Parts<sup>1</sup>  |      |    |   |        |      |
+|List Multipart Uploads<sup>1</sup>|      |    |   |        |      |
+
+<sup>1</sup> - No planned support in the SDKs
 
 Meta-Data Features
 ==================
