@@ -68,6 +68,16 @@ Get Bucket Params
 |Prefix   |  X   | X  | X |   X    |   X  |
 |Max Keys |  X   | X  | X |   X    |   X  |
 
+Notification Service
+====================
+
+**Note:** This is planned but only the Java sdk has started development on this.
+ 
+|         | Java | C# | C | Python | Ruby |
+|---------|:----:|:--:|:-:|:------:|:----:|
+|         |      |    |   |        |      |
+
+
 Helper Functions
 ================
 
