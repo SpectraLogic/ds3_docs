@@ -1,6 +1,20 @@
 DS3 SDK Feature Matrix
 ======================
 
+V1.1 Features
+=============
+#### C# and Java Features
+* Core S3 Calls
+* Core S3 Meta-data features
+* Core DS3 Calls (excluding notification service api calls)
+* Recover Write Job Helper Function
+
+#### C Features
+* Core S3 Calls
+* Core S3 Meta-data features
+* Core DS3 Calls (excluding notification service api calls)
+* Helper functions to come after initial release
+
 ## AWS Calls
 
 |                                  |    Java     | C# | C | Python | Ruby |
