@@ -87,6 +87,7 @@ Helper Functions
 |--------------------------|:----:|:--:|
 |Bulk Put                  |   X  |  X |
 |Bulk Get                  |   X  |  X |
+|Checksum Calculation      |      |    |
 |Partial Object Get        |      |  X |
 |List all Objects in Bucket|   X  |  X |
 |Recover Read Job          |      |    |
