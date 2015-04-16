@@ -29,7 +29,7 @@ V1.1 Features
 |Get Partial Object                |X<sup>1</sup>|  X |   |        |      |
 |Head Object                       |             |  X |   |        |      |
 |Delete Object                     |      X      |  X | X |   X    |  X   |
-|Multi Object Delete               |             |  X |   |        |      |
+|Multi Object Delete               |      X      |  X |   |        |      |
 |V2 Auth                           |      X      |  X | X |   X    |  X   |
 |V4 Auth<sup>2</sup>               |             |    |   |        |      |
 |Initial Multipart<sup>3</sup>     |             |    |   |        |      |
@@ -87,9 +87,9 @@ Notification Service
 
 **Note:** This is planned but only the Java sdk has started development on this.
  
-|         | Java | C# | C | Python | Ruby |
-|---------|:----:|:--:|:-:|:------:|:----:|
-|         |      |    |   |        |      |
+|                            | Java | C# | C | Python | Ruby |
+|----------------------------|:----:|:--:|:-:|:------:|:----:|
+| Notification Registrations |   X  |    |   |        |      |
 
 
 Helper Functions
