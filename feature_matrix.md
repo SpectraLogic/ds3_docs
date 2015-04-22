@@ -97,13 +97,14 @@ Helper Functions
 
 **Note:** Currently only the Java and C# SDK have helper functions
 
-|                          | Java | C# |
-|--------------------------|:----:|:--:|
-|Bulk Put                  |   X  |  X |
-|Bulk Get                  |   X  |  X |
-|Checksum Calculation      |      |    |
-|Partial Object Get        |      |  X |
-|List all Objects in Bucket|   X  |  X |
-|Recover Read Job          |      |    |
-|Recover Write Job         |      |  X |
-|Ensure Bucket Exists      |   X  |  X |
+|                          | Java | C# | C/C++ |
+|--------------------------|:----:|:--:|:-----:|
+|Bulk Put                  |   X  |  X |       |
+|Bulk Get                  |   X  |  X |       |
+|Checksum Calculation      |      |    |       |
+|Partial Object Get        |      |  X |       |
+|List all Objects in Bucket|   X  |  X |       |
+|Recover Read Job          |      |    |       |
+|Recover Write Job         |      |  X |       |
+|Ensure Bucket Exists      |   X  |  X |       |
+|Metadata                  |      |    |       |
