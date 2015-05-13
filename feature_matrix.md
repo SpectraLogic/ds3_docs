@@ -70,11 +70,24 @@ DS3 API Calls
 |Allocate Job Chunk<sup>1</sup>|   X  | X  | X |   X    |   X  |
 |Get Physical Placement        |      | X  | X |        |   X  |
 |Get Physical Placement - Full |      | X  |   |        |      |
+|Get Tapes                     |      |    |   |        |      |
+|Get Tape                      |      |    |   |        |      |
+|Inspect All Tapes             |      |    |   |        |      |
+|Inspect Tape                  |      |    |   |        |      |
+|Get Tape Failures             |   X  |    |   |        |      |
+|Delete Tape Failure           |      |    |   |        |      |
 |Get Tape Drives               |   X  |    |   |        |      |
-|Get Tape Drives               |   X  |    |   |        |      |
-|Get Tape Drives               |   X  |    |   |        |      |
-|Get Tape Drives               |   X  |    |   |        |      |
-|Get Tape Drives               |   X  |    |   |        |      |
+|Get Tape Drive                |   X  |    |   |        |      |
+|Delete Tape Drive             |   X  |    |   |        |      |
+|Get Tape Libraries            |   X  |    |   |        |      |
+|Get Tape Library              |   X  |    |   |        |      |
+|Get Tape Partitions           |      |    |   |        |      |
+|Get Tape Partition            |      |    |   |        |      |
+|Get Tape Partition Failures   |      |    |   |        |      |
+|Delete Tape Partition         |   X  |    |   |        |      |
+|Verify System Heal            |   X  |    |   |        |      |
+|Get System Information        |   X  |    |   |        |      |
+|Verify Physical Placement     |      |    |   |        |      |
 
 * <sup>1</sup> - This API call is deprecated
 
