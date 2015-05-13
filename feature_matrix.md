@@ -68,7 +68,13 @@ DS3 API Calls
 |Modify Job                    |   X  | X  | X |   X    |      | 
 |Get Available Job Chunks      |   X  | X  | X |   X    |   X  |
 |Allocate Job Chunk<sup>1</sup>|   X  | X  | X |   X    |   X  |
-|Get Physical Placement        |      |    | X |        |   X  |
+|Get Physical Placement        |      | X  | X |        |   X  |
+|Get Physical Placement - Full |      | X  |   |        |      |
+|Get Tape Drives               |   X  |    |   |        |      |
+|Get Tape Drives               |   X  |    |   |        |      |
+|Get Tape Drives               |   X  |    |   |        |      |
+|Get Tape Drives               |   X  |    |   |        |      |
+|Get Tape Drives               |   X  |    |   |        |      |
 
 * <sup>1</sup> - This API call is deprecated
 
