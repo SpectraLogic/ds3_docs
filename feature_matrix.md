@@ -69,6 +69,7 @@ DS3 API Calls
 |Get Available Job Chunks      |   X  | X  | X |   X    |   X  |
 |Allocate Job Chunk<sup>1</sup>|   X  | X  | X |   X    |   X  |
 |Get Physical Placement        |      | X  | X |        |   X  |
+|Verify Physical Placement     |      |    |   |        |      |
 |Get Physical Placement - Full |      | X  |   |        |      |
 |Get Tapes                     |      |    |   |        |      |
 |Get Tape                      |      |    |   |        |      |
@@ -87,7 +88,6 @@ DS3 API Calls
 |Delete Tape Partition         |   X  |    |   |        |      |
 |Verify System Heal            |   X  |    |   |        |      |
 |Get System Information        |   X  |    |   |        |      |
-|Verify Physical Placement     |      |    |   |        |      |
 
 * <sup>1</sup> - This API call is deprecated
 
