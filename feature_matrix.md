@@ -31,6 +31,19 @@ V2.x Features
 |----------------------------------|:-----------:|:--:|:-:|:------:|:----:|
 |Native FS ACL Storage/Retrieval   |             |    |   |        |      |
 
+#### Update S3 Backed Calls to DS3 Calls
+
+|                                  |    Java     | C# | C | Python | Ruby |
+|----------------------------------|:-----------:|:--:|:-:|:------:|:----:|
+|Create Bucket                     |             |    |   |        |      |
+
+
+#### Deprecated Calls to Remove
+
+|                                  |    Java     | C# | C | Python | Ruby |
+|----------------------------------|:-----------:|:--:|:-:|:------:|:----:|
+|Allocate Chunk                    |             |    |   |        |      |
+
 V1.1 Features
 =============
 #### C# and Java Features
