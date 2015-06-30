@@ -1,6 +1,6 @@
 DS3 SDK Feature Matrix
 ======================
-v2.x Features
+V2.x Features
 =============
 
 #### Core Features
