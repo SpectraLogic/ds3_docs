@@ -1,5 +1,19 @@
 DS3 SDK Feature Matrix
 ======================
+v2.x Features
+=============
+
+#### Core Features
+* ABM Commands
+  * Tape Specific
+  * Pool Specific
+* ACL Support
+
+#### DS3 Calls
+
+|                                  |    Java     | C# | C | Python | Ruby |
+|----------------------------------|:-----------:|:--:|:-:|:------:|:----:|
+|                             |             |    |   |        |      |
 
 V1.1 Features
 =============
