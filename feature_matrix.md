@@ -124,6 +124,14 @@ Notification Service
 |----------------------------|:----:|:--:|:-:|:------:|:----:|
 | Notification Registrations |   X  |    |   |        |      |
 
+Logging Support
+===============
+
+|                            | Java | C# | C | Python | Ruby |
+|----------------------------|:----:|:--:|:-:|:------:|:----:|
+|  File Logging              |   X  |  ? | X |   ?    |      |
+
+* ? - need to determine
 
 Helper Functions
 ================
