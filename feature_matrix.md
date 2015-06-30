@@ -25,6 +25,12 @@ V2.x Features
 |SHA256                            |             |    |   |        |      |
 |SHA512                            |             |    |   |        |      |
 
+#### New Helper Functions
+
+|                                  |    Java     | C# | C | Python | Ruby |
+|----------------------------------|:-----------:|:--:|:-:|:------:|:----:|
+|Native FS ACL Storage/Retrieval   |             |    |   |        |      |
+
 V1.1 Features
 =============
 #### C# and Java Features
