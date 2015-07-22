@@ -105,6 +105,7 @@ DS3 API Calls
 |                              | Java | C# | C | Python | Ruby |
 |------------------------------|:----:|:--:|:-:|:------:|:----:|
 |Bulk Put                      |   X  | X  | X |   X    |   X  |
+|Get Objects                   |      |    | X |        |      |
 |Bulk Get                      |   X  | X  | X |   X    |   X  |
 |Get Job                       |   X  | X  | X |   X    |   X  |
 |Get Jobs                      |   X  | X  |   |        |      |
