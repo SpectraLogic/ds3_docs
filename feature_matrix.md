@@ -66,14 +66,14 @@ V1.1 Features
 |Get Service                       |      X      |  X | X |   X    |  X   |
 |Create Bucket                     |      X      |  X | X |   X    |  X   |
 |Get Bucket                        |      X      |  X | X |   X    |  X   |
-|Head Bucket                       |      X      |  X |   |        |      |
+|Head Bucket                       |      X      |  X | X<sup>4</sup> |        |      |
 |Delete Bucket                     |      X      |  X | X |   X    |  X   |
 |Put Object                        |      X      |  X | X |   X    |  X   |
 |Get Object                        |      X      |  X | X |   X    |  X   |
-|Get Partial Object                |X<sup>1</sup>|  X |   |        |      |
-|Head Object                       |             |  X |   |        |      |
+|Get Partial Object                |X<sup>1</sup>|  X | X<sup>4</sup> |        |      |
+|Head Object                       |             |  X | X<sup>4</sup>  |        |      |
 |Delete Object                     |      X      |  X | X |   X    |  X   |
-|Multi Object Delete               |      X      |  X |   |        |      |
+|Multi Object Delete               |      X      |  X | X<sup>4</sup>  |        |      |
 |V2 Auth                           |      X      |  X | X |   X    |  X   |
 |V4 Auth<sup>2</sup>               |             |    |   |        |      |
 |Initial Multipart<sup>3</sup>     |             |    |   |        |      |
@@ -86,18 +86,20 @@ V1.1 Features
 * <sup>1</sup> - Currently limited to a single range 
 * <sup>2</sup> - Still determining when this will be developed
 * <sup>3</sup> - No planned support in the SDKs
+* <sup>4</sup> - In progress
 
 Meta-Data Features
 ==================
 
 |                               | Java | C# | C  | Python | Ruby |
 |-------------------------------|:----:|:--:|:--:|:------:|:----:|
-|Put Meta Data w/Object         |  X   | X  |    |        |      |
-|Get Meta Data w/Object         |      | X  |    |        |      |
-|Head Meta Data                 |      | X  |    |        |      |
+|Put Meta Data w/Object         |  X   | X  | X<sup>1</sup>  |        |      |
+|Get Meta Data w/Object         |  X   | X  | X<sup>1</sup>  |        |      |
+|Head Meta Data                 |  X   | X  | X<sup>1</sup>  |        |      |
 |Put Meta Data w/Helper Function|      |    |    |        |      |
 |Get Meta Data w/Helper Function|      |    |    |        |      |
 
+<sup>1</sup> - In progress
 
 DS3 API Calls
 =============
