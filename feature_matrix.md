@@ -76,12 +76,12 @@ V1.1 Features
 |Multi Object Delete               |      X      |  X | X<sup>4</sup>  |        |      |
 |V2 Auth                           |      X      |  X | X |   X    |  X   |
 |V4 Auth<sup>2</sup>               |             |    |   |        |      |
-|Initial Multipart<sup>3</sup>     |             |    |   |        |      |
-|Put Part<sup>3</sup>              |             |    |   |        |      |
-|Complete Multipart<sup>3</sup>    |             |    |   |        |      |
-|Abort Multipart<sup>3</sup>       |             |    |   |        |      |
-|List Multipart Parts<sup>3</sup>  |             |    |   |        |      |
-|List Multipart Uploads<sup>3</sup>|             |    |   |        |      |
+|Initial Multipart<sup>3</sup>     |      -      |  - | - |   -    |   -  |
+|Put Part<sup>3</sup>              |      -      |  - | - |   -    |   -  |
+|Complete Multipart<sup>3</sup>    |      -      |  - | - |   -    |   -  |
+|Abort Multipart<sup>3</sup>       |      -      |  - | - |   -    |   -  |
+|List Multipart Parts<sup>3</sup>  |      -      |  - | - |   -    |   -  |
+|List Multipart Uploads<sup>3</sup>|      -      |  - | - |   -    |   -  |
 
 * <sup>1</sup> - Currently limited to a single range 
 * <sup>2</sup> - Still determining when this will be developed
