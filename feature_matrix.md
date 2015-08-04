@@ -4,10 +4,11 @@ V2.x Features
 =============
 
 #### Core Features
+* ACL Support
 * ABM Commands
   * Tape Specific
   * Pool Specific
-* ACL Support
+
 
 #### DS3 Calls
 
@@ -111,13 +112,15 @@ DS3 API Calls
 |Bulk Get                      |   X  | X  | X |   X    |   X  |
 |Get Job                       |   X  | X  | X |   X    |   X  |
 |Get Jobs                      |   X  | X  |   |        |      |
-|Delete Job                    |   X  | X  | X |   X    |   X  |
+|Delete Job<sup>2</sup>        |   X  | X  | X |   X    |   X  |
 |Modify Job                    |   X  | X  | X |   X    |      | 
 |Get Available Job Chunks      |   X  | X  | X |   X    |   X  |
 |Allocate Job Chunk<sup>1</sup>|   X  | X  | X |   X    |   X  |
 |Get Physical Placement        |      | X  | X |        |   X  |
 |Get Physical Placement - Full |      | X  |   |        |      |
 |Verify Physical Placement     |      |    |   |        |      |
+|Folder Delete                 |      |    | X |        |      |
+|Object Search                 |      |    | X |        |      |
 |Get Tapes                     |      |    |   |        |      |
 |Get Tape                      |      |    |   |        |      |
 |Inspect All Tapes             |      |    |   |        |      |
@@ -137,6 +140,7 @@ DS3 API Calls
 |Get System Information        |   X  |    |   |        |      |
 
 * <sup>1</sup> - This API call is deprecated
+* <sup>2</sup> - Need to add the `force` flag for 2.x behavior
 
 Get Bucket Params
 =================
