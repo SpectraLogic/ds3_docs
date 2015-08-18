@@ -80,9 +80,9 @@ V1.1 Features
 |Put Object                        |      X      |  X | X |   X    |  X   |
 |Get Object                        |      X      |  X | X |   X    |  X   |
 |Get Partial Object                |X<sup>1</sup>|  X |   |        |      |
-|Head Object                       |      X      |  X | X<sup>4</sup>  |        |      |
+|Head Object                       |      X      |  X | X |        |      |
 |Delete Object                     |      X      |  X | X |   X    |  X   |
-|Multi Object Delete               |      X      |  X | X<sup>4</sup>  |        |      |
+|Multi Object Delete               |      X      |  X | X |        |      |
 |V2 Auth                           |      X      |  X | X |   X    |  X   |
 |V4 Auth<sup>2</sup>               |             |    |   |        |      |
 |Initial Multipart<sup>3</sup>     |      -      |  - | - |   -    |   -  |
