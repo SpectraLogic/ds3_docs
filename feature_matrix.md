@@ -125,7 +125,7 @@ DS3 API Calls
 |Get Available Job Chunks      |   X  | X  | X |   X    |   X  |
 |Allocate Job Chunk<sup>1</sup>|   X  | X  | X |   X    |   X  |
 |Get Physical Placement        |      | X  | X |        |   X  |
-|Get Physical Placement - Full |      | X  |   |        |      |
+|Get Physical Placement - Full |      | X  | X |        |      |
 |Verify Physical Placement     |      |    |   |        |      |
 |Folder Delete                 |      |    | X |        |      |
 |Object Search                 |      |    | X |        |      |
