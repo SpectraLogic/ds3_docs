@@ -119,7 +119,7 @@ DS3 API Calls
 |Get Objects                   |      |    | X |        |      |
 |Bulk Get                      |   X  | X  | X |   X    |   X  |
 |Get Job                       |   X  | X  | X |   X    |   X  |
-|Get Jobs                      |   X  | X  |   |        |      |
+|Get Jobs                      |   X  | X  | X |        |      |
 |Delete Job<sup>2</sup>        |   X  | X  | X |   X    |   X  |
 |Modify Job                    |   X  | X  | X |   X    |      | 
 |Get Available Job Chunks      |   X  | X  | X |   X    |   X  |
