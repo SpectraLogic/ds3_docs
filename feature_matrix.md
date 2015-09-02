@@ -144,7 +144,7 @@ DS3 API Calls
 |Get Tape Partition            |      |    |   |        |      |
 |Get Tape Partition Failures   |      |    |   |        |      |
 |Delete Tape Partition         |   X  |    |   |        |      |
-|Verify System Health          |   X  |    |   |        |      |
+|Verify System Health          |   X  |    | X |        |      |
 |Get System Information        |   X  |    | X |        |      |
 
 * <sup>1</sup> - This API call is deprecated
