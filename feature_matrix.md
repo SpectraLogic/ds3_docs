@@ -82,7 +82,7 @@ V1.1 Features
 |Get Partial Object                |X<sup>1</sup>|  X |   |        |      |
 |Head Object                       |      X      |  X | X |   X    |      |
 |Delete Object                     |      X      |  X | X |   X    |  X   |
-|Multi Object Delete               |      X      |  X | X |        |      |
+|Multi Object Delete               |      X      |  X | X |   X    |      |
 |V2 Auth                           |      X      |  X | X |   X    |  X   |
 |V4 Auth<sup>2</sup>               |             |    |   |        |      |
 |Initial Multipart<sup>3</sup>     |      -      |  - | - |   -    |   -  |
