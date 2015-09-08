@@ -6,3 +6,4 @@ Client Partner Certification Process
 * Tests
   * Single Large object
   * 1,000 objects of various sizes
+  * Doing a Bulk GET on an object not in BlackPearl cache
