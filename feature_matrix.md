@@ -80,7 +80,7 @@ V1.1 Features
 |Put Object                        |      X      |  X | X |   X    |  X   |
 |Get Object                        |      X      |  X | X |   X    |  X   |
 |Get Partial Object                |X<sup>1</sup>|  X |   |        |      |
-|Head Object                       |      X      |  X | X |        |      |
+|Head Object                       |      X      |  X | X |   X    |      |
 |Delete Object                     |      X      |  X | X |   X    |  X   |
 |Multi Object Delete               |      X      |  X | X |        |      |
 |V2 Auth                           |      X      |  X | X |   X    |  X   |
@@ -102,9 +102,9 @@ Meta-Data Features
 
 |                               | Java | C# | C  | Python | Ruby |
 |-------------------------------|:----:|:--:|:--:|:------:|:----:|
-|Put Meta Data w/Object         |  X   | X  | X<sup>1</sup>  |        |      |
-|Get Meta Data w/Object         |  X   | X  | X<sup>1</sup>  |        |      |
-|Head Meta Data                 |  X   | X  | X<sup>1</sup>  |        |      |
+|Put Meta Data w/Object         |  X   | X  | X<sup>1</sup>  |    X   |      |
+|Get Meta Data w/Object         |  X   | X  | X<sup>1</sup>  |    X   |      |
+|Head Meta Data                 |  X   | X  | X<sup>1</sup>  |    X   |      |
 |Put Meta Data w/Helper Function|      |    |    |        |      |
 |Get Meta Data w/Helper Function|      |    |    |        |      |
 
@@ -124,10 +124,10 @@ DS3 API Calls
 |Modify Job                    |   X  | X  | X |   X    |      | 
 |Get Available Job Chunks      |   X  | X  | X |   X    |   X  |
 |Allocate Job Chunk<sup>1</sup>|   X  | X  | X |   X    |   X  |
-|Get Physical Placement        |      | X  | X |        |   X  |
+|Get Physical Placement        |      | X  | X |   X    |   X  |
 |Get Physical Placement - Full |      | X  | X |        |      |
 |Verify Physical Placement     |      |    |   |        |      |
-|Folder Delete                 |   X  |    | X |        |      |
+|Folder Delete                 |   X  |    | X |   X    |      |
 |Get Tapes                     |      |    |   |        |      |
 |Get Tape                      |      |    |   |        |      |
 |Inspect All Tapes             |      |    |   |        |      |
