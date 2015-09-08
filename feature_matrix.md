@@ -75,7 +75,7 @@ V1.1 Features
 |Get Service                       |      X      |  X | X |   X    |  X   |
 |Create Bucket                     |      X      |  X | X |   X    |  X   |
 |Get Bucket                        |      X      |  X | X |   X    |  X   |
-|Head Bucket                       |      X      |  X | X<sup>4</sup> |        |      |
+|Head Bucket                       |      X      |  X | X |        |      |
 |Delete Bucket                     |      X      |  X | X |   X    |  X   |
 |Put Object                        |      X      |  X | X |   X    |  X   |
 |Get Object                        |      X      |  X | X |   X    |  X   |
@@ -116,7 +116,7 @@ DS3 API Calls
 |                              | Java | C# | C | Python | Ruby |
 |------------------------------|:----:|:--:|:-:|:------:|:----:|
 |Bulk Put                      |   X  | X  | X |   X    |   X  |
-|Get Objects                   |      |    | X |        |      |
+|Get Objects                   |      | X  | X |        |      |
 |Bulk Get                      |   X  | X  | X |   X    |   X  |
 |Get Job                       |   X  | X  | X |   X    |   X  |
 |Get Jobs                      |   X  | X  | X |        |      |
@@ -127,8 +127,7 @@ DS3 API Calls
 |Get Physical Placement        |      | X  | X |        |   X  |
 |Get Physical Placement - Full |      | X  | X |        |      |
 |Verify Physical Placement     |      |    |   |        |      |
-|Folder Delete                 |      |    | X |        |      |
-|Object Search                 |      |    | X |        |      |
+|Folder Delete                 |   X  |    | X |        |      |
 |Get Tapes                     |      |    |   |        |      |
 |Get Tape                      |      |    |   |        |      |
 |Inspect All Tapes             |      |    |   |        |      |
