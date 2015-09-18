@@ -8,7 +8,7 @@ Client Partner Certification Process
   * 1,000 objects of various sizes (1K to 1GB)
   * Try to retrieve an object that doesn't exist in Black Pearl
   * Access Black Pearl with invalid credentials
-  * Access a bucket that the user does not have access to
+  * Access a bucket that the user does not have access to (PUTs and GETs)
   * Doing a Bulk GET on an object not in BlackPearl cache (in 1.2 this means a server restart, in 2.4 we can use the cache reclaim api)
   * Cache full events - a client only has to do one or the other depending what which method they are using:
     * Test cache full events when using GetAvailableChunks (either by using an intermediate proxy or artificially limit the cache size)
