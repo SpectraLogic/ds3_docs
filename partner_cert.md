@@ -5,7 +5,7 @@ Client Partner Certification Process
   used)
 * Tests
   * Single Large object (100GB or greater so that a single file will be chunked) (This could be set smaller so that they could use 20MB instead of 100GB)
-  * 1,000 objects of various sizes (1K to 1GB)
+  * 1,000 objects of various sizes (1KB to 1GB)
   * Try to retrieve an object that doesn't exist in Black Pearl
   * Access Black Pearl with invalid credentials
   * Access a bucket that the user does not have access to (PUTs and GETs)
