@@ -9,4 +9,4 @@ Client Partner Certification Process
   * Doing a Bulk GET on an object not in BlackPearl cache (in 1.2 this means a server restart, in 2.4 we can use the cache reclaim api)
   * Cache full events - a client only has to do one or the other depending what which method they are using:
     * Test cache full events when using GetAvailableChunks (either by using an intermediate proxy or artificially limit the cache size)
-    * Test cache full events when using naked S3 PUTs ()
+    * Test cache full events when using naked S3 PUTs (this can be simulated as well)
