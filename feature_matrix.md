@@ -5,7 +5,7 @@ Code Gen
 ========
 |                                  |    Java     | C# | C | Python | Ruby |
 |----------------------------------|:-----------:|:--:|:-:|:------:|:----:|
-| Request/Response                 |             |    |   |        |      |
+| Request/Response                 |     X       |    |   |        |      |
 | Model                            |             |    |   |        |      |
 
 V2.x Features
@@ -29,11 +29,11 @@ V2.x Features
 
 |                                  |    Java     | C# | C | Python | Ruby |
 |----------------------------------|:-----------:|:--:|:-:|:------:|:----:|
-|MD5                               |             |    |   |        |      |
-|CRC32                             |             |    |   |        |      |
-|CRC32C                            |             |    |   |        |      |
-|SHA256                            |             |    |   |        |      |
-|SHA512                            |             |    |   |        |      |
+|MD5                               |      X      | X  | X |        |      |
+|CRC32                             |      X      | X  | X |        |      |
+|CRC32C                            |      X      | X  | X |        |      |
+|SHA256                            |      X      | X  | X |        |      |
+|SHA512                            |      X      | X  | X |        |      |
 
 #### New Helper Functions
 
@@ -75,11 +75,11 @@ V1.1 Features
 |Get Service                       |      X      |  X | X |   X    |  X   |
 |Create Bucket                     |      X      |  X | X |   X    |  X   |
 |Get Bucket                        |      X      |  X | X |   X    |  X   |
-|Head Bucket                       |      X      |  X | X |        |      |
+|Head Bucket                       |      X      |  X | X |   X    |      |
 |Delete Bucket                     |      X      |  X | X |   X    |  X   |
 |Put Object                        |      X      |  X | X |   X    |  X   |
 |Get Object                        |      X      |  X | X |   X    |  X   |
-|Get Partial Object                |X<sup>1</sup>|  X |   |        |      |
+|Get Partial Object                |X<sup>1</sup>|  X |   |   X    |      |
 |Head Object                       |      X      |  X | X |   X    |      |
 |Delete Object                     |      X      |  X | X |   X    |  X   |
 |Multi Object Delete               |      X      |  X | X |   X    |      |
@@ -102,9 +102,9 @@ Meta-Data Features
 
 |                               | Java | C# | C  | Python | Ruby |
 |-------------------------------|:----:|:--:|:--:|:------:|:----:|
-|Put Meta Data w/Object         |  X   | X  | X<sup>1</sup>  |    X   |      |
-|Get Meta Data w/Object         |  X   | X  | X<sup>1</sup>  |    X   |      |
-|Head Meta Data                 |  X   | X  | X<sup>1</sup>  |    X   |      |
+|Put Meta Data w/Object         |  X   | X  | X  |    X   |      |
+|Get Meta Data w/Object         |  X   | X  | X  |    X   |      |
+|Head Meta Data                 |  X   | X  | X  |    X   |      |
 |Put Meta Data w/Helper Function|      |    |    |        |      |
 |Get Meta Data w/Helper Function|      |    |    |        |      |
 
@@ -116,10 +116,10 @@ DS3 API Calls
 |                              | Java | C# | C | Python | Ruby |
 |------------------------------|:----:|:--:|:-:|:------:|:----:|
 |Bulk Put                      |   X  | X  | X |   X    |   X  |
-|Get Objects                   |      | X  | X |        |      |
+|Get Objects                   |   X  | X  | X |   X    |      |
 |Bulk Get                      |   X  | X  | X |   X    |   X  |
 |Get Job                       |   X  | X  | X |   X    |   X  |
-|Get Jobs                      |   X  | X  | X |        |      |
+|Get Jobs                      |   X  | X  | X |   X    |      |
 |Delete Job<sup>2</sup>        |   X  | X  | X |   X    |   X  |
 |Modify Job                    |   X  | X  | X |   X    |      | 
 |Get Available Job Chunks      |   X  | X  | X |   X    |   X  |
@@ -127,9 +127,10 @@ DS3 API Calls
 |Get Physical Placement        |      | X  | X |   X    |   X  |
 |Get Physical Placement - Full |      | X  | X |        |      |
 |Verify Physical Placement     |      |    |   |        |      |
-|Folder Delete                 |   X  |    | X |   X    |      |
-|Get Tapes                     |      |    |   |        |      |
+|Folder Delete                 |   X  | X  | X |   X    |      |
+|Get Tapes                     |   X  |    |   |        |      |
 |Get Tape                      |      |    |   |        |      |
+|Delete Tape                   |   X  |    |   |        |      |
 |Inspect All Tapes             |      |    |   |        |      |
 |Inspect Tape                  |      |    |   |        |      |
 |Get Tape Failures             |   X  |    |   |        |      |
@@ -143,8 +144,8 @@ DS3 API Calls
 |Get Tape Partition            |      |    |   |        |      |
 |Get Tape Partition Failures   |      |    |   |        |      |
 |Delete Tape Partition         |   X  |    |   |        |      |
-|Verify System Health          |   X  |    | X |        |      |
-|Get System Information        |   X  |    | X |        |      |
+|Verify System Health          |   X  | X  | X |   X    |      |
+|Get System Information        |   X  | X  | X |   X    |      |
 
 * <sup>1</sup> - This API call is deprecated
 * <sup>2</sup> - Need to add the `force` flag for 2.x behavior
@@ -189,7 +190,7 @@ Helper Functions
 |Checksum Calculation      |      |    |       |
 |Partial Object Get        |      |  X |       |
 |List all Objects in Bucket|   X  |  X |       |
-|Recover Read Job          |      |    |       |
-|Recover Write Job         |      |  X |       |
+|Recover Read Job          |   X  |  X |       |
+|Recover Write Job         |   X  |  X |       |
 |Ensure Bucket Exists      |   X  |  X |       |
 |Metadata                  |      |    |       |
