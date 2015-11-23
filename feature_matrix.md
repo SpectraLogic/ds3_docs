@@ -79,7 +79,7 @@ V1.1 Features
 |Delete Bucket                     |      X      |  X | X |   X    |  X   |
 |Put Object                        |      X      |  X | X |   X    |  X   |
 |Get Object                        |      X      |  X | X |   X    |  X   |
-|Get Partial Object                |X<sup>1</sup>|  X |   |   X    |      |
+|Get Partial Object                |X<sup>1</sup>|  X |   |        |      |
 |Head Object                       |      X      |  X | X |   X    |      |
 |Delete Object                     |      X      |  X | X |   X    |  X   |
 |Multi Object Delete               |      X      |  X | X |   X    |      |
