@@ -9,6 +9,7 @@ Helper Feature Matrix
 * Consistent Strategies across .net and java
 * Make the list commands lazy
 * Client side filtering
+* Pause transfer
 
 ## Object Failure Conditions
 * Too many retries
